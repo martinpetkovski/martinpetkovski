@@ -4,7 +4,7 @@
 ╟──────────────────────────────────────────────────────────────────────────────────────╢
 ║  ● Video Games Programmer & Enthusiast                                               ║
 ║  ● Sole developer of NST (https://www.najjak.com/nst/)                               ║
-║  ● Open to develop various flavors of cool shit                                      ║
+║  ● Open to develop various flavors of cool mumbo jumbo gobbledygook                  ║
 ╟──────────────────────────────────────────────────────────────────────────────────────╢
 ║                                                If you want to win, you mustn't lose  ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
