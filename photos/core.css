@@ -1,0 +1,14 @@
+body { background-color: #111;}
+
+.container { 
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;   
+  }
+  
+  img {
+    flex: flex-shrink;
+    padding: 5px;
+  }

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'UniSans';
+    src: url('resources/uni-sans.otf');
+}
+
+@font-face {
+    font-family: 'Rektec';
+    src: url('resources/Rektec.otf');
+}
+
+@font-face {
+    font-family: 'FontAwesome5Brands';
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/webfonts/fa-brands-400.ttf');
+}
+
+@font-face {
+    font-family: 'FontAwesome5';
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/webfonts/fa-solid-900.ttf');
+}
+
+* { padding:0; margin:0; font-family: 'Roboto', FontAwesome5, FontAwesome5Brands, sans-serif; }
+body {  background: rgb(6,18,31); background: linear-gradient(43deg, rgba(6,18,31,1) 16%, rgba(14,35,69,1) 44%, rgba(18,40,78,1) 53%, rgba(6,18,31,1) 84%); bottom: 100px; }
+html { position: relative; min-height: 100%; }
+#header { background-color:#06121f; padding:20px; text-align: left; }
+#header img { width: 96px; }
+#wrapper { margin: 0 auto; width: 40vw; min-width:700px; }
+.nst { font-family: 'Rektec', Arial, Verdana; margin-left:2vw; color: #fff; font-size:64px; }
+.title { font-family: 'UniSans', Arial, Verdana; display: inline-block; color:#fff; font-size:16px; margin-left:2vw; min-width:200px;}
+.subtitle { width:100%; font-family: 'UniSans', FontAwesome5, FontAwesome5Brands, Arial, Verdana; display: inline-block; color:#fff; font-size:16px; background-color: #1116; text-align:right; }
+.section { 
+	position:relative; 
+	left:0px; 
+	font-family: 'UniSans', FontAwesome5, FontAwesome5Brands, Arial, Verdana; 
+	font-size:2vw; 
+	padding: 20px; 
+	margin:20px 0px; 
+	background-color:#212e37; 
+	color:#fff; 
+	transition: left 0.3s ease-out, box-shadow 0.3s ease-out; 
+	box-shadow: 0px 0px 0px #000A;
+}
+#footerMargin {  margin-bottom:200px; }
+.section:hover { cursor:pointer; transition: left 0.3s ease-out, box-shadow 0.3s ease-out; left: 20px; box-shadow: 10px 10px 20px #000A;}
+.section:active { left: 20px; box-shadow:0px 0px 0px #000; transition: 0.01s; }
+.page { height: 100vh; }
+.button { 
+	background: rgb(33,81,104);
+	background: linear-gradient(180deg, rgba(33,81,104,1) 0%, rgba(28,57,73,1) 100%);
+	color: #fff;
+	border: thin solid #6666;
+	border-radius:4px;
+	padding: 10px;
+	display:inline-block;
+}
+
+.button:hover { 
+	cursor: pointer;
+}
+
+.button:active { 
+	background: rgb(33,81,104); 
+	background: linear-gradient(0deg, rgba(33,81,104,1) 0%, rgba(28,57,73,1) 100%);
+}
+
+a, a:visited, a:active { text-decoration: none; color: #FFF; }
+b { text-shadow: 0px 0px 20px #000; }
+
+td#headerButtons {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px;
+	text-align:right;
+}
+
+#getOnSteam {
+	font-size: 32px;
+	text-align:right;
+}
+
+#landingSection {
+	color: #FFF;
+	margin-top:20px;
+	padding:60px 0px;
+	font-size: 45px;
+	text-align:center;
+}
+
+#footer { 
+	background-color:#0004; 
+	color: #FFF; 
+	padding: 40px 0px; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden; 
+}
